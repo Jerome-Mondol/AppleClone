@@ -25,8 +25,12 @@ canvas {
   max-width: 1120px;
 }
 
+#hero {
+    color: gray;
+}
+
 @layer utilities {
-  .flex justify-center items-center {
+  .flex-center {
     @apply flex items-center justify-center;
   }
 
